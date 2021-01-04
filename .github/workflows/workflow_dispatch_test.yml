@@ -6,4 +6,4 @@ jobs:
     runs-on: self-hosted
     steps:
     - name: echo workflow_dispatch_test
-      run: echo workflow_dispatch_test
+      run: do echo workflow_dispatch_test; sleep 180; done
